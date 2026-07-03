@@ -1,0 +1,14 @@
+{
+  "name": "apoorvjain25",
+  "owner": {
+    "name": "Apoorv Jain"
+  },
+  "plugins": [
+    {
+      "name": "frontier",
+      "source": "./",
+      "skills": ["./frontier"],
+      "description": "Execute any task at frontier quality: domain rubrics for 21 crafts, best-of-N candidates, evidence-grounded production, convergence sweeps to two consecutive clean passes, and a strong-model taste gate."
+    }
+  ]
+}
