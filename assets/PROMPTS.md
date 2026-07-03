@@ -51,8 +51,8 @@ no purple, no sparkles, no other elements.
 ```
 
 Social preview prompt (1280x640): same identity, centered wordmark over a thin rule and the
-line "21 craft standards / convergence loop / taste gate", faint contour rings with an
-amber summit dot in the top-right corner only, flat, precise, empty margins.
+line "standards by fable 5 / output by your model", faint contour rings with an amber
+summit dot in the top-right corner only, flat, precise, empty margins.
 
 ### The "illustrated night-survey" variant (used for the shipped hero.png)
 
@@ -87,4 +87,5 @@ source, any color outside the listed hexes.
   waypoints than the six phases; accepted as depicting the loop's many passes.
 - hero.svg (identity source and fallback): gen-assets.mjs, seed 41, verified by a headless
   Chromium render at native size
-- social-preview.svg/png: gen-assets.mjs, seed 97, verified by a headless Chromium render at 1280x640
+- social-preview.svg/png: gen-assets.mjs, seed 97, subline updated 2026-07-04 to "standards
+  by fable 5 / output by your model", re-verified by a headless Chromium render at 1280x640

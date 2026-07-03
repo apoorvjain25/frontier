@@ -48,7 +48,7 @@ Honest caveat for chat surfaces: there are no subagents and no hooks there, so j
 run as bracketed self-passes and evidence that needs tooling (screenshots, test runs) gets
 reported as unverified rather than claimed.
 
-## 4. Any other agent (Cursor, Windsurf, aider, raw API)
+## 4. Any other agent (Cursor, Windsurf, aider, or a raw API call to GPT, Gemini, or any capable model)
 
 1. Open [PROMPT.md](../PROMPT.md); copy everything below the horizontal rule.
 2. Attach or paste the craft file matching your domain from `frontier/references/craft/`.

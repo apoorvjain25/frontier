@@ -78,7 +78,7 @@ ${contourRings({ peakX: 1120, peakY: 105, rings: 6, baseR: 24, step: 36, driftX:
 <circle cx="1120" cy="105" r="5" fill="${AMBER}"/>
 <text x="640" y="322" text-anchor="middle" font-family="${MONO}" font-size="96" letter-spacing="10" fill="${INK}">frontier</text>
 <line x1="480" y1="366" x2="800" y2="366" stroke="${LINE}" stroke-width="1.5"/>
-<text x="640" y="414" text-anchor="middle" font-family="${MONO}" font-size="23" letter-spacing="1" fill="${MUTE2}">21 craft standards &#183; convergence loop &#183; taste gate</text>
+<text x="640" y="414" text-anchor="middle" font-family="${MONO}" font-size="23" letter-spacing="1" fill="${MUTE2}">standards by fable 5 &#183; output by your model</text>
 <text x="640" y="474" text-anchor="middle" font-family="${MONO}" font-size="19" fill="${MUTE}">quality is a procedure, not a property</text>
 </svg>`;
 

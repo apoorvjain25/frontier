@@ -32,7 +32,8 @@ adjective in the prompt; it is a manufacturing process with four properties:
 
 Why keep Layer 3 at all when Layer 1 carries the pitch: iteration lifts a weaker model far
 more than a stronger one, because external standards plus passes substitute for what the
-stronger model does internally in one generation. That asymmetry is the gap being closed.
+stronger model does internally in one generation. That asymmetry is the gap being closed;
+distilling the standards from Claude Fable 5 itself is what makes the substitution real.
 
 ## Phase by phase
 

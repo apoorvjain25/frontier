@@ -1,12 +1,12 @@
 {
   "name": "frontier",
-  "description": "Execute any task at frontier quality: domain rubrics for 21 crafts, best-of-N candidates for creative work, evidence-grounded production, fresh-eyes convergence sweeps until two consecutive clean passes, and a strong-model taste gate with permanent taste distillation.",
-  "version": "1.1.0",
+  "description": "Standards written and audited by Claude Fable 5: make Opus, Sonnet, GPT, or Gemini produce work close to its bar. 21 craft rubrics, best-of-N candidates, convergence sweeps, a taste gate with permanent distillation.",
+  "version": "1.1.1",
   "author": {
     "name": "Apoorv Jain"
   },
   "homepage": "https://github.com/apoorvjain25/frontier",
   "repository": "https://github.com/apoorvjain25/frontier",
   "license": "MIT",
-  "keywords": ["quality", "craft", "verification", "convergence", "design", "writing", "code", "acceptance-loop", "anti-slop"]
+  "keywords": ["quality", "craft", "verification", "convergence", "design", "writing", "code", "acceptance-loop", "anti-slop", "fable-5", "opus", "sonnet", "gpt", "gemini"]
 }

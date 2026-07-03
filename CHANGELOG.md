@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1 (2026-07-04)
+
+- Positioning: names the target models (Opus, Sonnet, GPT, Gemini) and the Fable 5
+  provenance across the pitch surfaces; social card subline updated.
+
 ## 1.1.0 (2026-07-03)
 
 The distillation release: the standards were adversarially audited and upgraded by Claude

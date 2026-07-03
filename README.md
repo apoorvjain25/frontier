@@ -4,15 +4,17 @@
 
 # frontier
 
-**Make any capable model produce frontier-quality work. The 21 craft standards lift even a
-single response; the optional convergence loop and taste gate carry work that must be
-right.**
+**Make Claude Opus, Sonnet, GPT, or Gemini produce work close to what Claude Fable 5 would
+ship: Fable 5 itself [wrote and audited](examples/the-distillation-run.md) these 21
+standards, so the model you already have executes against its bar. One response gets the
+lift; the optional convergence loop and taste gate carry work that must be right.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-2A3242.svg?labelColor=0B0E14)](LICENSE)
 [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-skill%20%2B%20plugin-2A3242.svg?labelColor=0B0E14)](https://docs.claude.com/en/docs/claude-code)
 [![Craft standards](https://img.shields.io/badge/craft%20standards-21-2A3242.svg?labelColor=0B0E14)](frontier/references/craft)
 [![Judges](https://img.shields.io/badge/judges-verifier%20·%20taste%20gate%20·%20panel-2A3242.svg?labelColor=0B0E14)](frontier/references/judges.md)
 [![Works everywhere](https://img.shields.io/badge/also%20runs%20in-claude.ai%20·%20Cursor%20·%20Windsurf%20·%20aider-2A3242.svg?labelColor=0B0E14)](PROMPT.md)
+[![Target models](https://img.shields.io/badge/for-Opus%20·%20Sonnet%20·%20GPT%20·%20Gemini-2A3242.svg?labelColor=0B0E14)](#faq)
 
 ```
 /frontier <deliverable> [quick|full|gate]
@@ -33,7 +35,7 @@ this README received, failures first, with the fixes each one forced.
 ## Quality is a procedure, not a property
 
 Ask a model to "make it great" and you get its training-data average: the same hero layout,
-the same "seamlessly leverage" copy, the same confident report nobody verified. 
+the same "seamlessly leverage" copy, the same confident report nobody verified.
 The gap between that and frontier output is mostly not intelligence. It is method: strong
 models define the standard before generating, sample several attempts instead of polishing
 the first, verify against real evidence with fresh eyes, and refuse to stop at "looks done".
@@ -156,7 +158,8 @@ portable to any surface.
 
 The kit was authored and then adversarially audited by Claude Fable 5 (Anthropic's frontier
 tier) in July 2026, in the final days of its general access: 8 auditor agents in fresh
-contexts, 7 sweeping the 21 craft files and 1 reviewing the judge prompts. About 260
+contexts, 7 sweeping the 21 craft files and 1 reviewing the judge prompts, agents, and
+skill. About 260
 documented change entries came back: vague lines became numbers, rules a literal-minded
 model could satisfy in letter while missing in spirit got tightened, and, most unusually,
 the model wrote down its OWN tells as ban-list entries: the machine-cadence prose tics, the
@@ -164,8 +167,8 @@ default design habits, the hedge-everything analysis patterns, the fiction clich
 prompt review alone returned 42 findings, all applied. The full run, with its real ledgers:
 [examples/the-distillation-run.md](examples/the-distillation-run.md).
 
-The expensive model wrote the standard once, so any cheaper model can execute against it
-forever.
+The expensive model wrote the standard once; the model you already have executes against
+it, session after session.
 
 ## Install
 
@@ -220,7 +223,7 @@ frontier adds is the combination; the table enumerates it.
 | Verification | none | the model says it checked | per-finding, against the code | fresh-eyes judges against rendered evidence |
 | Stop condition | n/a | the response ended | two quiet passes across its lens catalog | earned: one judged pass (quick) to two clean sweeps + gate (full) |
 | Improves over time | manual edits | no | lens PRs | DISTILL: every taste call becomes a rule |
-| Token cost | ~free | low | high: many sweep passes to convergence | 1.5-9x a one-shot, mode-sized, capped |
+| Token cost | ~free | low | high: many sweep passes to convergence | 1.5-9x a one-shot (author estimate), mode-sized, capped |
 
 production-audit is the sibling: it tears down what exists, frontier builds what is next,
 and they share the convergence philosophy.
@@ -273,6 +276,16 @@ bar: [docs/CUSTOMIZING.md](docs/CUSTOMIZING.md) and [CONTRIBUTING.md](CONTRIBUTI
 ## FAQ
 
 <details>
+<summary><b>Can this really get Opus, Sonnet, GPT, or Gemini close to Fable 5's output?</b></summary>
+
+On verifiable work, that is the design: iteration and explicit standards lift a weaker
+model far more than a stronger one, which is exactly the gap being closed. The ceiling is
+real: a model judging its own tier plateaus below a stronger model's eye
+(<a href="#limitations">Limitations</a> has the rest). The receipt:
+<a href="examples/the-distillation-run.md">the distillation run</a>.
+</details>
+
+<details>
 <summary><b>Is this just a big system prompt?</b></summary>
 
 In its single-response form, honestly, it is close: an engineered rubric plus one mandatory
@@ -304,8 +317,8 @@ matching your domain.
 
 The skill packaging is Claude Code native, but <a href="PROMPT.md">PROMPT.md</a> plus a
 craft file runs the same procedure in Cursor, Windsurf, aider, or a raw API call to any
-capable model. The standards are model-independent, and the judges are plain prompts that
-travel with them.
+capable model. The standards are plain text and model-independent; only the packaging and
+the tuning notes are Claude-specific.
 </details>
 
 <details>
@@ -326,9 +339,9 @@ arrives already inspected. Run frontier to build, production-audit before you sh
 
 ## License
 
-MIT: use it inside a company, modify it privately, ship products built with it; the only
-obligation is keeping the license notice. If the gate earns its keep, a star helps the next
-person find it.
+MIT: run it inside a company, fork the standards to your own house rules, ship products
+built under it; the only obligation is keeping the license notice. If the gate earns its
+keep, a star helps the next person find it.
 
 ---
 

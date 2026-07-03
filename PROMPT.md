@@ -6,7 +6,10 @@ Cursor, Windsurf, aider, a raw API call), attach the craft file matching your do
 `frontier/references/craft/` (design, motion, writing, code, research, prompting, product,
 data, security, ops, media, marketing, decisions, sales, teaching, management, storytelling,
 academic, career, translation, coordination), and paste your task and inputs LAST, below
-everything. For Claude Code, install the skill instead; see the README.
+everything. For Claude Code, install the skill instead; see the README. These standards
+were written and adversarially audited by Claude Fable 5 (the receipt:
+examples/the-distillation-run.md in the repo); they hold whatever model you paste them
+into, Claude Opus or Sonnet, GPT, or Gemini, close to the frontier model's bar.
 
 ---
 
