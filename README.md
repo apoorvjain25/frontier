@@ -167,8 +167,8 @@ default design habits, the hedge-everything analysis patterns, the fiction clich
 prompt review alone returned 42 findings, all applied. The full run, with its real ledgers:
 [examples/the-distillation-run.md](examples/the-distillation-run.md).
 
-The expensive model wrote the standard once; the model you already have executes against
-it, session after session.
+The expensive model set the bar once, in writing; clearing it no longer takes the expensive
+model.
 
 ## Install
 
