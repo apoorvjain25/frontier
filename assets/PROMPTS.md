@@ -89,3 +89,8 @@ source, any color outside the listed hexes.
   Chromium render at native size
 - social-preview.svg/png: gen-assets.mjs, seed 97, subline updated 2026-07-04 to "standards
   by fable 5 / output by your model", re-verified by a headless Chromium render at 1280x640
+- social-card.png (SHIPPED as the GitHub Settings social preview upload): derived from the
+  shipped hero.png (same GPT night-survey art), padded to 1280x640 on the flat background
+  color, stat line replaced with the positioning subline ("standards by fable 5 / output by
+  your model") rendered in Cascadia Mono; verified by inspection at full size and a 2x text
+  crop, 2026-07-04
